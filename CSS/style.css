@@ -316,3 +316,19 @@ header p {
 .article-content a:hover {
     color: white;
 }
+
+
+/* NATION CARDS */
+
+.continent-section {
+    margin-bottom: 60px;
+}
+
+.continent-section h2 {
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #334155;
+
+    font-family: 'Cinzel', serif;
+    color: #f8fafc;
+}
