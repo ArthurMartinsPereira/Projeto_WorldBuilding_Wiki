@@ -318,6 +318,92 @@ header p {
 }
 
 
+/* ARTICLE LAYOUT */
+
+.article-layout {
+    display: flex;
+
+    gap: 30px;
+
+    max-width: 1400px;
+
+    margin: 40px auto;
+
+    padding: 0 20px;
+
+    align-items: flex-start;
+}
+
+
+/* INFO BOX*/
+
+.infobox img {
+    width: 100%;
+
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #334155;
+}
+.infobox h3 {
+    text-align: center;
+
+    margin-bottom: 15px;
+
+    color: #f8fafc;
+
+    font-family: 'Cinzel', serif;
+}
+.infobox table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+.infobox th,
+.infobox td {
+    padding: 10px;
+
+    border-bottom: 1px solid #334155;
+
+    text-align: left;
+}
+
+.infobox th {
+    color: #f8fafc;
+
+    width: 40%;
+}
+
+.infobox td {
+    color: #cbd5e1;
+}
+
+
+/* BREADCRUMBS */
+
+.breadcrumb {
+    max-width: 1400px;
+
+    margin: 20px auto;
+
+    padding: 0 20px;
+
+    color: #94a3b8;
+
+    font-size: 0.9rem;
+}
+.breadcrumb a {
+    color: #93c5fd;
+
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: white;
+}
+
 /* NATION CARDS */
 
 .continent-section {
